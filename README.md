@@ -51,6 +51,20 @@ lsusb
 
 ### Base Station Configuration
 
+- First, we took a camera tripod to set the base station. At the top an 5/8″ to 1/4″ adapter is used to place the GNSS receiver. Then we put in a box the 10000 mAh PowerBank (for stand alone using) and the simpleRTK2B with the XBee-LR module on it.
+
+<p align="center">
+  <img src="/images/base_station_tripod.jpg" width="400">
+</P>
+
+the inside of the box is like the image below:
+
+<p align="center">
+  <img src="/images/base_station_box.jpg" width="400">
+</P>
+
+*The reason that we set an additional power supply is to use the base station as a stand alone device. We plug the simpleRTK2B in a laptop to Survey-in and the we unplug the laptop. The base station powered by the powerbank and continues to send the RTCM messages.*
+
 - (optional) Register in an NTRIP network to get access to RTCM messages to localize accurately the Base Station. We choose [igs-ip.net](http://www.igs-ip.net/) as it was free after registration. Before register to any network check to find if that network provides NTRIP Casters in your local area. 
    - Download [SNIP](https://www.use-snip.com/download/), which is a free NTRIP Caster software.
    - Open SNIP and look at the log the available IPs:
@@ -150,7 +164,7 @@ lsusb
    
  - Define a workspace with a nice view of the sky. Add some markers for testing the RTK application.
  
-   ![alt text](/images/workspace.PNG)
+   <!-- ![alt text](/images/workspace.PNG) -->
  
  - From the MT-Manager open the Status Data. The RTK_Status has to be HIGH.
    
@@ -191,7 +205,11 @@ So lets make a recap about our equipment. The Base Station with XBee looks like 
 </P>
 
 And the Rover looks like this:
-**#TODO: TAKE ANOTHER PICTURE OF THE ROVER WITH THE NEW GNSS RECEIVER**
+<p align="center">
+  <img src="/images/rover_compact.jpg" width="500">
+</P>
+
+with its components inside the box:
 <p align="center">
   <img src="/images/rover_with_xbee.png" width="500">
 </P>
