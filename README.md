@@ -1,4 +1,4 @@
-# aristos_localization_with_gps_rtk
+# xsens_imu_gps_rtk
 
 This repository is about robot localization with RTK application. Briefly, the main equipment that we used is an [Xsens MTi-680G](https://www.xsens.com/products/mti-600-series) for the Rover kinematic measurement, as is RTK-enabled sensor, and secondly, we use a [simpleRTK2B](https://www.ardusimple.com/simplertk2b/) with [ZED-F9P module](https://www.u-blox.com/en/product/zed-f9p-module) on it, as the Base station. The communication between the Base and the Rover succeed with [XBee SX 868](https://www.ardusimple.com/product/radio-module-long-range/) for up to 14 km RF communication.
 
