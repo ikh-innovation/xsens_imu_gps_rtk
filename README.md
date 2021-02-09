@@ -233,8 +233,23 @@ with its components inside the box:
  - Then, click "Send" to send the message that you edit. 
    ![alt text](/images/send_msg.PNG)
 
-Hopefully, at this stage, you are done. Check the "Status Data" about the RTK_Status Flag. A very useful feature of the MT-Manager is that it can export KMZ files for plotting your tests in Google Earth. Press record (red circle) at the GUI, do your test movements, and press record again to stop it. MT-Manager exports the file of the recording as btm. Go to File/Open to open the btm file and export it as KMZ. The following gif, shows our testing. We tried to pass with the Rover two times above the sidewalk of the stadium. The orange arrow is the orientation vector of the MTi-680G. The test proved that the RTK application is really accurate, with centimeter-level precision.
+Alternative, in MTmanager v2020.3 there is a dedicated button to change the RTCM port without having to sent a low level command. Open the Device Settings tab and choose your optimal baudrate of the RTCM config. See below:
+
+<p align="center">
+  <img src="/images/rtcmport.png" width="900">
+</P
+
+Hopefully, at this stage, you are done. Check the "Status Data" about the RTK_Status Flag. A very useful feature of the MT-Manager is that it can export KMZ files for plotting your tests in Google Earth. Press record (red circle) at the GUI, do your test movements, and press the record button again to stop it. MT-Manager exports the file of the recording as btm. Go to File/Open to open the btm file and export it as KMZ. The following gif, shows our testing. We tried to pass with the Rover two times above the sidewalk of the stadium. The orange arrow is the orientation vector of the MTi-680G. The test proved that the RTK application is really accurate, with centimeter-level precision.
 
 <p align="center">
   <img src="/images/stadium_path.gif" width="800">
 </P>
+
+## Contact us
+<!-- <p align="left">
+  <img src="/images/ikh_logo.png" width="100">
+</P> -->
+<img align="right" src="/images/ikh_logo.png" width="120">
+
+**Michalis Logothetis** | Email: mlogothetis@iknowhow.com
+**Lefteris Griparis** | Email: lgriparis@iknowhow.com
