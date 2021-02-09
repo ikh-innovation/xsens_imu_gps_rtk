@@ -233,7 +233,7 @@ with its components inside the box:
  - Then, click "Send" to send the message that you edit. 
    ![alt text](/images/send_msg.PNG)
 
-Alternative, in MTmanager v2020.3 there is a dedicated button to change the RTCM port without having to sent a low level command. Open the Device Settings tab and choose your optimal baudrate of the RTCM config. See below:
+**Alternatively**, in MTmanager v2020.3 there is a dedicated button to change the RTCM port without having to send a low-level command. Open the Device Settings tab and choose your optimal baudrate of the RTCM config. See below:
 
 <p align="center">
   <img src="/images/rtcmport.png" width="900">
