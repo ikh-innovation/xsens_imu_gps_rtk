@@ -247,10 +247,11 @@ Hopefully, at this stage, you are done. Check the "Status Data" about the RTK_St
 
 ## Contact us
 
-<!-- <img align="right" src="/images/ikh_logo.png" width="120"> -->
+<img align="right" src="/images/ikh_logo.png" width="120">
 
-**Michalis Logothetis** | Email: mlogothetis@iknowhow.com
+**Michalis Logothetis** | Email: mlogothetis@iknowhow.com \
 **Lefteris Griparis** | Email: lgriparis@iknowhow.com
-<p align="right">
+
+<!-- <p align="right">
   <img src="/images/ikh_logo.png" width="100">
-</P>
+</P> -->
